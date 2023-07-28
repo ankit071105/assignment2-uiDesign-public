@@ -129,3 +129,17 @@ button:active, button:hover{
     align-content: space-between;
     margin: 0;
 }
+@media (max-width:700px) {
+    body{
+        width: 80%;
+        margin-left: -150px;
+    }
+    p{
+        margin-top: 20px;
+    }
+    img{
+        align-items: center;
+        width:200px;
+    
+    }
+}

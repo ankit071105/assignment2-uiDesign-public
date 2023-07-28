@@ -7,7 +7,8 @@
 body{
     display: flex;
     justify-content: center;
-    background: #000;
+    background:linear-gradient(45deg, rgb(42, 42, 47),rgb(31, 30, 30));
+    width: 100%;
 }
 
 .container{
@@ -39,6 +40,7 @@ button{
     background: rgb(0, 187, 255);  
     font-size: 1.5rem;
     border: none;
+    color: aliceblue !important;
     border-radius: 1rem; 
     box-shadow: 0 0 5px rgb(31, 49, 81);
 }
@@ -46,4 +48,34 @@ button{
 a{
     text-decoration: none;
     font-weight: bold;
+    color: aliceblue !important;
+}
+@media(max-width:800px)
+{
+    body{
+        width: 100%;
+    }
+    button{
+        width: 70%;
+        display: flex;
+      margin-right: 30px;
+        background: rgb(7, 110, 236);  
+        font-size: 0.5rem;
+        color: aliceblue !important;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+        border-radius:30%; 
+        box-shadow: 0 0 5px rgb(31, 49, 81);
+    }
+    button:hover{
+        background-color: blueviolet;
+        color: aliceblue !important;
+    }
+    .container{
+        width: 80%;
+    }
+    #my{
+        margin-left: -80px;
+    }
 }
